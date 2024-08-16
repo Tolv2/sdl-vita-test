@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+9e5bf14ed9f28600463ab5ffeb9bb441 CMakeFiles/SDL_Test-velf
+583a0d921e411c61e7c001753b764995 CMakeFiles/SDL_Test.vpk-vpk
+a35c68c2d13559a1546b8658b9da89b0 CMakeFiles/eboot.bin-self
+011a16760eebd2f2917cae53fd2f99cc CMakeFiles/send
+9a0cff68d920c1434748eab0df89b095 SDL_Test.vpk.out
+f0941a753a7b09bf6484f1e6b50f7b7d SDL_Test.vpk_param.sfo
+909aac333c2b664af4743536b35984ab eboot.bin.out

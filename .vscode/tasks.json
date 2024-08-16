@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Make",
+            "command": "make",
+            "args": ["-j12", "-f", "${workspaceFolder}/manualbuild/Makefile"]
+        },
+        {
+			"type": "shell",
+			"label": "cpplaunch",
+			"command": "${workspaceFolder}/bin/main",
+			"dependsOn": "Make"
+		},
+        {
+			"type": "shell",
+			"label": "keyboard-shortcut-task",
+			"command": "echo",
+			"args": ["Running from keyboard shortcut"],
+			"dependsOn": "cpplaunch"
+		}
+    ],
+    "version": "2.0.0"
+}
