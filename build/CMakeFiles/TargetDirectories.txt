@@ -1,7 +1,0 @@
-/home/four/lp/sdl/build/CMakeFiles/SDL_Test.dir
-/home/four/lp/sdl/build/CMakeFiles/SDL_Test-velf.dir
-/home/four/lp/sdl/build/CMakeFiles/eboot.bin-self.dir
-/home/four/lp/sdl/build/CMakeFiles/SDL_Test.vpk-vpk.dir
-/home/four/lp/sdl/build/CMakeFiles/send.dir
-/home/four/lp/sdl/build/CMakeFiles/edit_cache.dir
-/home/four/lp/sdl/build/CMakeFiles/rebuild_cache.dir
