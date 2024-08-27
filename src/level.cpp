@@ -99,6 +99,20 @@ void level::handOver(){
                 case SDL_QUIT:
                     this->stop(&ticker);
                 break;
+                case SDL_KEYDOWN:
+                    switch (e.key.keysym.scancode){
+                        case SDL_SCANCODE_SPACE:
+                            if(this->getTouchingPlatform() != -1){
+                                vSpeed -= this->conf->jumpForce;
+                            }
+                            break;
+                        case SDL_SCANCODE_ESCAPE:
+                            this->stop(&ticker);
+
+                    default:
+                        break;
+                    }
+                break;
             }
         }
     }

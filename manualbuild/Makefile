@@ -8,4 +8,5 @@ LINKER_FLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf
 OBJ_NAME = main
 
 all: $(OBJS)
+	mkdir -p bin
 	$(CXX) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o bin/$(OBJ_NAME)
